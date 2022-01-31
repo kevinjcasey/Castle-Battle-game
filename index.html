@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <title>Castle Battle</title>
+</head>
+<body>
+    <h1>Castle Battle</h1>
+
+    <section id="start-prompt">
+        <h2>Who would like to play against?</h2>
+        <button type="button" id="computer-game">Play against the computer</button>
+        <!-- <button type="button" id="player-game">Play against another player</button> -->
+    </section>
+
+    <section id="display">
+        <h2>The Game</h2>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">Barracks</th>
+                    </tr> 
+                    <tr>
+                        <th>Name</th>
+                        <th>Role</th>
+                    </tr> 
+                </thead>
+                <tbody id="player1Barracks">
+                    <tr>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </section>
+
+    <section id="hitpoints">
+        <h4 class="player-hp">Player HP: </h4>
+        <h4 class="computer-hp">Computer HP: </h4>
+    </section>
+
+    
+</body>
+</html>

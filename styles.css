@@ -1,0 +1,22 @@
+body, section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* borrowed from hogwarts homework css */
+table {
+    border: 1px solid grey;
+}
+
+br {
+    text-align: center;
+}
+
+/* we wanted to make prettier more but timing issues  */
+
+
+
+
+
+
